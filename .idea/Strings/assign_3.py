@@ -1,4 +1,4 @@
-base = str(input("Enter a word: "))
+base = str(input("Enter a word please: "))
 base1 = base[::-1]
 if(base == base1):
     print("Yes, '" + base + "' is a palindrome!")
