@@ -17,7 +17,7 @@ if(count>=8 and spcount>=1 and digcount>=1 and uppcount>=1):
     print("Your password is strong.")
     print("Your password strength is 10/10")
 else:
-    flag = []      #I don't think I'm allowed to use lists, but this was the only way to keep me from writing 16 different outcomes.
+    flag = []   #I don't think I'm allowed to use lists, but this was the only way to keep me from having to write 16 different outcomes.
     if(spcount < 1):
         flag.append("a special character")
         strength -= 25
@@ -31,4 +31,4 @@ else:
         flag.append("at least 8 characters")
         strength -= 25
     print("Your password needs " + ", ".join(flag) + ".")
-    print("Your password strength is " + str(int(strength/10)) + "/10")
+    print("Your password strength is " + str(strength/10) + "/10")
