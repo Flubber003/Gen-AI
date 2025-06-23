@@ -1,0 +1,2 @@
+ERROR:ZeroDivisionError occurred: division by zero
+ERROR:ValueError occurred: invalid literal for int() with base 10: 'ten'
